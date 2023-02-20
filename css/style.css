@@ -1,0 +1,30 @@
+body {
+    font-family:Gloock;
+background-color: #FDCE7E;
+color:#521EC9;
+
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: Mynerve;
+font-size: 30pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero,footer {
+    background-color: #C9741E;
+    color:pink;
+    border: 4px  solid;
+    text-align: center;
+    padding: 15px;
+}
+
+#hero img{
+    width: 300px;
+}
+
+#bio{
+    text-align:center;
+}
