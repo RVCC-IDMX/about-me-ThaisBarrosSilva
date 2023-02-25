@@ -6,7 +6,11 @@ color:#521EC9;
 }
 h1,h2,h3,h4,h5,h6 {
 font-family: Mynerve;
-font-size: 30pt;
+text-align: center;
+
+}
+h1{
+    font-size: 30pt;
 }
 
 header{
@@ -27,4 +31,9 @@ header{
 
 #bio{
     text-align:center;
+}
+#hobbies ul li:nth-child(even){
+    color:purple;
+
+
 }
