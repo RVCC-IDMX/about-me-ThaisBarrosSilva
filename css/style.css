@@ -32,7 +32,7 @@ header{
 #bio{
     text-align:center;
 }
-#hobbies ul li:nth-child(even){
+#hobbies ul li:nth-child(odd){
     color:purple;
 
 
