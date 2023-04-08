@@ -43,6 +43,12 @@ header{
             flex-direction: column;
             align-items: center;
     }
+    li{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     
 
         #hobbies ul li:nth-child(odd){
@@ -102,7 +108,7 @@ header{
         grid-template-columns: 2fr 1fr;
      }  
      figcaption{
-     display: flex;
+     display:flex;
      justify-content: center; 
      align-items: center;
      font-size: 2rem;
@@ -113,14 +119,14 @@ header{
     }
     #lit div{
         max-width:100%;
-        columns:20%
+        columns:40rem;
     }
     }
     /* large screen size*/
     @media screen and (min-width:100em){
         #gallery{
             display:grid;
-            grid-template-colums: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
         hr{
             display:none;
