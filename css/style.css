@@ -43,12 +43,6 @@ header{
             flex-direction: column;
             align-items: center;
     }
-    li{
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
     
 
         #hobbies ul li:nth-child(odd){
@@ -56,10 +50,10 @@ header{
     }
 
 /* Galeria */
-#gallery{
+ #gallery{
     border: 3px solid #FF1493;
     margin-bottom: 5rem;
-}
+ }
     #gallery img{
      max-width: 75%;
 
@@ -100,7 +94,16 @@ header{
         border-top-left-radius:.3em;
         border-bottom-right-radius: .2em;
 
+
     }
+     /* Contact Form */
+
+     #formElements{
+        display: grid;
+
+
+     }
+
     /* tablet size*/
     @media screen and (min-width: 60em) {
      figure{
