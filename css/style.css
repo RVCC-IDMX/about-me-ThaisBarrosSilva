@@ -97,16 +97,18 @@ header{
 
     }
      /* Contact Form */
-
+     
      #formElements{
         display: grid;
         row-gap: .5em;
+        
      }
 
      #contact{
         padding: 1rem;
         max-width: 600px;
         margin: 2rem auto;
+    
      }
 
      fieldset{
@@ -126,6 +128,7 @@ header{
      #contact input, #contact textarea, #contact select, #contact button{
         padding: .5em;
         font-size: 1rem;
+        
 
      }
 
