@@ -17,12 +17,20 @@ body{
 /* add some padding back to rest of page */
 main{
     padding: 2vw;
-    
+
 }
 
 /* navbar */
 
-
+.navbar{
+    background-color: #FF1493;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  
+}
 
 /* logo */
 
