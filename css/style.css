@@ -1,40 +1,60 @@
 body {
-    font-family:Gloock;
-background-color:#f5f5dc;
-color:#521EC9;
+font-family:Gloock;
+background-color:whitesmoke;
+color:dark;
 
 }
+
 h1,h2,h3,h4,h5,h6 {
 font-family: Mynerve;
 text-align: center;
 
+
 }
 h1{
     font-size: 30pt;
+   
+
 }
 h2 {
     margin: 1em;
+    color:#a52a2a;
+    
 }
 
 header{
     text-align: center;
+    background-color: lightgray;
+    color:black;
 }
 
+
 #hero,footer {
-    background-color:lightpink;
-    color:#FF1493;
+    background-color:lightgray;
+    color:black;
     border: 4px  solid;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
+   
 }
 /* Hero Section */
 #hero img{
-    width: 300px;
+    padding-top: 20px;
+    width: 360px;
+    border-radius: 40px;
+
+   
+   
+  
+
 }
 /* Bio Section */
 #bio{
     text-align:center;
+    
+    
 }
+
 /* Hobbies Section */
 
     section#hobbies {
@@ -42,20 +62,29 @@ header{
             display: flex;
             flex-direction: column;
             align-items: center;
+            
     }
     
 
         #hobbies ul li:nth-child(odd){
-            color:purple;
+            color:dark;
     }
 
 /* Galeria */
  #gallery{
-    border: 3px solid #FF1493;
+    border: 2px solid dark;
     margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    
+   
+    
  }
     #gallery img{
-     max-width: 75%;
+     max-width: 80%;
+     border-radius: 15px;
+    
+     
 
     }
     #gallery figure{
@@ -65,7 +94,7 @@ header{
     /*Literature*/
     #lit{
         font-family:Arial, Helvetica, sans-serif;
-        border: 4px solid #FF1493;
+        border: 4px solid gray;
         margin-bottom: 5rem;
         
     }
@@ -82,7 +111,7 @@ header{
     /* Dropcaps*/
 
     #lit div p:first-child:first-letter{
-        color:#FF1493;
+        color:gray;
         background-image: linear-gradient(#FFF,#FFB2DC);
         float:left;
         font-size:2em;
@@ -96,6 +125,10 @@ header{
 
 
     }
+    /*Find me*/
+    #findme{
+        text-align: center;
+    }
      /* Contact Form */
      
      #formElements{
@@ -108,11 +141,12 @@ header{
         padding: 1rem;
         max-width: 600px;
         margin: 2rem auto;
+        
     
      }
 
      fieldset{
-        border: 2px solid #FF1493;
+        border: 2px solid gray;
         margin-top:1em;
         margin-bottom:1em;
         border-radius: 2rem;
@@ -120,8 +154,8 @@ header{
      
      legend{
 
-        background-color: #FF1493;
-        color:white;
+        background-color:chocolate;
+        color:black bold;
         padding: .5em;
 
      }
@@ -143,9 +177,9 @@ header{
      }
 
      #contact button{
-        background-color: #FF1493;
+        background-color: gray;
         color:white;
-        border: 1px solid #521EC9;
+        border: 1px solid black;
         max-width: 400px;
         width: 50%;
         justify-self: center;
@@ -155,18 +189,18 @@ header{
     /* tablet size*/
     @media screen and (min-width: 60em) {
      figure{
-        display:grid;
+        display:flex;
+        justify-content: center;
         grid-template-columns: 2fr 1fr;
      }  
      figcaption{
-     display:flex;
-     justify-content: center; 
-     align-items: center;
-     font-size: 2rem;
+     display:grid;
+     align-items:center;
+     font-size: 1rem;
      margin-left: 1rem;
     }
     figure img{
-        width:100%
+        width:100%;
     }
     #lit div{
         max-width:100%;
@@ -181,17 +215,20 @@ header{
         }
         hr{
             display:none;
+            
         }
         #gallery h2{
             grid-column: 1/-1;
+            
         }
         figure{
             display: block;
+          
         }
     }
     #video{
         text-align: center;
-        border: 3px solid #FF1493;
+        border: 3px solid gray;
         margin-bottom: 5rem;
         font-size: 20px;
         
