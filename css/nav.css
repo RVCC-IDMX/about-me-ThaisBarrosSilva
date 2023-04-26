@@ -19,7 +19,6 @@ body{
 main{
     padding: 2vw;
    
-
 }
 
 /* navbar */
@@ -47,8 +46,8 @@ main{
 
 }
 .logo img{
-    height: 4vw;
-    width: 4vw;
+    height: 6vw;
+    width: 6vw;
 }
 .logo h1{
     font-size: 1.2em;
