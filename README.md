@@ -29,8 +29,8 @@ background-image:linear-gradient(to bottom, `#8c3d35` `rgb(140,61,53)`,`#582c28`
     
 ##**Hero**
     I also changed the main photo, added a photo of myself using the following measurements:
-       background-color:`#f1e2cf`
-        color: `#a13c17`
+       background-color:`#e9ceac`
+        color: `#8e2904`
         border: `#a13c17` 4px  solid;
         text-align: center;
         padding: 4rem 2rem;
