@@ -1,35 +1,73 @@
 # README 
 
-    Thais Barros da Silva- final
+    #Thais Barros da Silva- Final
+    
+    About me was created with the purpose of installing the knowledge acquired from the semester on wed-development class, but attributing my own choices and creation. During the project I have a opportunity to know what I have a solid knowledge and what I will need to work more in. I used HTML5 and CSS3; during the project we went more deep than just the base, I used tags such as <img> for include imagens on my page, <a> anchor file, hyperlink on web pages, <button> for creating buttons, <input> for creating interactive controls for forms, and others. 
+    I added 3 pictures from Pexels that show happiness, because that was my main idea to bring happiness for the clients.
+    I also add a jazz music that I dowloaded from google: https://studio.youtube.com/channel/UCcUoNuI9i2O-9ejSTUj7DHg/music
+    
+    
+    
+    Also was used CSS to bring colors and shapes to our page. During the process I researched about colors, transparency and came to the conclusion that shades of brown would be the ideal color for my website. The following colors that I used was:
 
-    #My Netlify Status
+##**body color**: `#fae3c7d1` `rgba(250,227,199,0.82)`
+
+##**main font color**:  `#000000` `rgba(0,0,0)`
+
+
+##**header and fooster** :
+background-image:linear-gradient(to bottom, `#8c3d35` `rgb(140,61,53)`,`#582c28` `rgb(88,84,40)` . I also added a shadow with the following box-shadow value: 2px 2px 4px 1px `#0000008e` `rgba(0 ,0.0.0.556)`;
+
+##**H2**: The color of it was modified to brown`##964B00`as well.
+
+<img width="596" alt="Screen Shot 2023-04-30 at 9 51 49 AM" src="https://user-images.githubusercontent.com/123126649/235356649-b4c33f0e-a78c-4c84-9c54-364518a33933.png">
+ <img width="673" alt="Screen Shot 2023-04-30 at 9 52 27 AM" src="https://user-images.githubusercontent.com/123126649/235356680-4f31dddb-e298-4168-9e6f-86b70e29d47b.png">
+    
+ ##**Logo-Favicon**: I created a logo with the color based on the site's color palette (shades of brown). 
+    
+##**Picture- Gallery**: display: flex, justify-content: center
+    
+##**Hero**
+    I also changed the main photo, added a photo of myself using the following measurements:
+       background-color:`#f1e2cf`
+        color: `#a13c17`
+        border: `#a13c17` 4px  solid;
+        text-align: center;
+        padding: 4rem 2rem;
+        font-size: 1rem;
+        border-radius: 20px 0px;
+
+##**where you can find me**
+    At the beginning of the project, only I had added Linkedln and Instagram, at that moment I added GitHub . I used the tag <a> to connect the pages to my website 
+    
+ ##**Footer**: I also added a tag <a> to connect with github
+  
+    
+
+ #**My Netlify Status**
     [![Netlify Status](https://api.netlify.com/api/v1/badges/64667685-00b9-42ca-a911-5372569c131e/deploy-status)](https://app.netlify.com/sites/about-me-thaisbarrossilva/deploys)
 
-    About me was created with the purpose of installing the knowledge acquired during the semester, but attributing own choices and creation.
+ #**Citations**
+ 
+I used content such as: images, music and color sites to bring shapes and pass on my proposal to the client.
+Picture from Pexels:
+by Yaroslav Shuraev: https://www.pexels.com/photo/a-woman-lying-on-the-lap-5331080/
+by Anna Shvets: https://www.pexels.com/photo/happy-father-and-son-4586688/
+by Ketut Subiyanto https://www.pexels.com/photo/happy-ethnic-kids-and-man-playing-on-bed-in-morning-4545148/
 
-    #Logo-Favicon:
-    I decided to create a logo based on the colors of the chart, black(#000000) (0,0,0) brown(#964B00), I used fivecon and the image size became 96x96png.
+The music that I add on the page 
+by TrackTribe: https://studio.youtube.com/channel/UCcUoNuI9i2O-9ejSTUj7DHg/music
 
-    #Body:
-    I opted for a light color, whitesmoke (#f5f5f5) (245,245,245)and that fits the other colors too, making the customer experience comfortable
+Color: I used https://color.adobe.com/create/color-wheel
+https://coolors.co/29bf12-abff4f-08bdbd-f21b3f-ff9914
 
-    #H2:
-    The color of it was modified to brown(#964B00) as well.
+#**Licence**
+MIT License
 
-    #Picture- Gallery:
-    I changed the size of it as, I made smaller and I fixed it side by side using
-    display: flex
-    justify-content: center
+Copyright (c) [2023] [Thais Barros]
+ 
+   
 
-    #Main picture
-    I also changed the main photo, added a photo of myself using the following measurements:
-    padding-top: 20px;
-        width: 360px;
-        border-radius: 40px;
-    I added the color as well of the background lightgray (d3,d3,d3) (211,211,211)
-
-    #where you can find me
-    At the beginning of the project, only I had added Linkedln and Instagram, at that moment I added GitHub .
-
+   
 
 
