@@ -138,7 +138,7 @@
      .happiness1 img{
         max-width: 30%;
         border-radius: 40px;
-        border-style:double;
+        border-style:groove;
         border-width: 2px;
         border-color:#8e2904;
         position: relative;
@@ -200,17 +200,18 @@
         /* Dropcaps*/
     
         #lit div p:first-child:first-letter{
-            color:gray;
-            background-image: linear-gradient(#FFF,#FFB2DC);
+            color:#592c28;
+            background-image: linear-gradient(#F2d7b6,#a68c6d);
             float:left;
-            font-size:2em;
+            font-size:4em;
             padding:.25em;
             line-height:.65em;
-            border: 1px solid black;
             text-shadow: 2px 2px 3px rgba(0,0,0,.5);
             box-shadow: 3px 3px 3px rgba(0,0,0,.5);
             border-top-left-radius:.3em;
             border-bottom-right-radius: .2em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
         }
 
        
