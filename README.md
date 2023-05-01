@@ -41,7 +41,7 @@ Color: I used https://color.adobe.com/create/color-wheel https://coolors.co/29bf
 
 #Licence MIT License
 
-Copyright (c) [2023] [Thais Barros da Silva]
+Copyright (c) [2023] [Thais Barros]
 
 
 
