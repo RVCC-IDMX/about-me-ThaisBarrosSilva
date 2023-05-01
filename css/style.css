@@ -159,7 +159,7 @@
     }
     .happiness1:hover{
         background :transparent;
-        transform: rotate(35deg);
+        transform: rotate(20deg);
     }
 
     #happiness1{
