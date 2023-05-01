@@ -50,6 +50,7 @@
         color:black;
     }
     
+    
     /*background from my picture*/
     #hero{
         background-color:#e9ceac;
@@ -59,11 +60,11 @@
         padding: 4rem 2rem;
         border-radius: 20px 0px;
         
-
         
     }
+    
 
-    /* Hero Section */
+    /* My picture */
     #hero img{
         padding:none;
         width: 320px;
@@ -79,27 +80,7 @@
        font-style: bold;
     }
 
-    /*fooster*/
-    footer {
-        background-image: linear-gradient(to bottom, #8c3d35,#582c28);
-        color:#fae3c7d1;
-        border: 4px  solid;
-        text-align: center;
-        padding: 4rem 2rem;
-        font-size: 1rem;
-        box-shadow: 2px 2px 4px 1px #0000008e;   
-    }
-
-    footer a{
-       color: #fae3c7d1;
-    }
-
-    a{
-        color:black;
-        font-size:22px;
-
-    }
-   
+    
     /* Bio Section */
     #bio{
         text-align:center;
@@ -109,7 +90,7 @@
     
     /* Hobbies Section */
     
-    section#hobbies {
+    section#bio {
     
         display: flex;
         flex-direction: column;
@@ -118,13 +99,14 @@
         }
         
     
-    #hobbies ul li:nth-child(odd){
+    #bio ul li:nth-child(odd){
         color:dark;
      }
     
        
     
     /* Galeria of Happiness*/
+    
      .happiness1{
         border: 2px solid dark;
         margin-bottom: 5rem;
@@ -146,10 +128,10 @@
         
      }
      
-        .happiness1 figure{
-            text-align:center;
-            
-     }
+     .happiness1 figure{
+        text-align:center;
+        
+ }
      /*animation*/
     .happiness1{
         transition-duration: 1000ms;
@@ -171,50 +153,53 @@
         font-size: 20px;
         padding: 9px;
         font-family: Arial, Helvetica, sans-serif
-        
-
     }
     /*end animation*/
 
-     
-    
-        /*Literature*/
-        #lit{
-            font-family:Arial, Helvetica, sans-serif;
-            border: 4px solid #a13c17;
-            margin-bottom: 5rem;
-            
-        }
-        #lit div{
-            padding:3rem;
-            max-width: 40rem;
-            margin: 0 auto;
-           
-        }
-        #lit div p{
-            padding:0.2rem 0;
-            clear: both;
-    
-        }
+    /*video*/
+    #video{
+        text-align: center;
+        border: 3px solid #a13c17;
+        margin-bottom: 5rem;
+        font-size: 20px;   
+    }
 
-        /* Dropcaps*/
-    
-        #lit div p:first-child:first-letter{
-            color:#592c28;
-            background-image: linear-gradient(#F2d7b6,#a68c6d);
-            float:left;
-            font-size:4em;
-            padding:.25em;
-            line-height:.65em;
-            text-shadow: 2px 2px 3px rgba(0,0,0,.5);
-            box-shadow: 3px 3px 3px rgba(0,0,0,.5);
-            border-top-left-radius:.3em;
-            border-bottom-right-radius: .2em;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            
-        }
+     /*Blog*/
+     #blog{
+        background-color: #d48b70;
+        padding-top: 10px;
+        
+        
+    }
 
+    #blog{
+        padding:3rem;
+        max-width: 40rem;
+        margin: 0 auto;
+        text-align: justify;
        
+    }
+    #blog div p{
+        padding:0.2rem 0;
+        clear: both;
+
+    } 
+    /* First letter*/
+    #blog div p:first-child:first-letter{
+        color:#592c28;
+        background-image: linear-gradient(#F2d7b6,#a68c6d);
+        float:left;
+        font-size:4em;
+        padding:.25em;
+        line-height:.65em;
+        text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+        box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+        border-top-left-radius:.3em;
+        border-bottom-right-radius: .2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+   
         /*Find me*/
         #findme{
             text-align: center;
@@ -292,15 +277,12 @@
          font-family: Arial, Helvetica, sans-serif;
         
          }
-
          figure img{
             width:100%;
          }
-         #lit div{
-            max-width:100%;
-            columns:40rem;
+         
         }
-        }
+
         /* large screen size*/
         @media screen and (min-width:100em){
             #gallery{
@@ -320,47 +302,57 @@
               
             }
         }
-        #video{
-            text-align: center;
-            border: 3px solid #a13c17;
-            margin-bottom: 5rem;
-            font-size: 20px;
-            
-        }
-        /*Blog*/
-        #blog{
-            background-color: #d48b70;
-            padding-top: 10px;
-            
-            
-        }
+        
+       
         /*Picture transforme*/
         .cod1{
             width: 280px;
             height: 250px;
             box-sizing: border-box;
-            transform: translate(100px, -10px);
+            translate:translate(15px,0px);
+            padding-left: 8px;
             
         }
         .trans1{
             width: 280px;
             height: 250px;
             box-sizing: border-box;
-            transform: translate(100px, -10px);
+            transform: translate(15px,0px);
+            
         }
 
         .cod2{
             width: 310px;
             height:130px;
             box-sizing: border-box;
-            transform: translate(80px, -10px);
+            transform: translate(15px,0px);
+            padding-right:20px;
 
         }
         .trans2{
             width: 280px;
             height: 250px;
             box-sizing: border-box;
-            transform: translate(100px, -10px);
+            transform: translate(15px,0px);
 
         }
-        
+          /*fooster*/
+    footer {
+        background-image: linear-gradient(to bottom, #8c3d35,#582c28);
+        color:#fae3c7d1;
+        border: 4px  solid;
+        text-align: center;
+        padding: 4rem 2rem;
+        font-size: 1rem;
+        box-shadow: 2px 2px 4px 1px #0000008e;   
+    }
+
+    footer a{
+       color: #fae3c7d1;
+    }
+
+    a{
+        color:black;
+        font-size:22px;
+
+    }

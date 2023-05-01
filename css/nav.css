@@ -61,7 +61,7 @@ main{
 /* navigation list */
 .navbar-links li{
     list-style: none;
-    display: block;
+    display:block;
     padding: 0.5em 0;
 }
 
@@ -70,9 +70,11 @@ main{
  style all a tags in header 
  and then on hover
 */
+
+
 .navbar-links a {
     color:#f1ddc3f4;
-    background-image: linear-gradient(to bottom,#582c28, #8c3d35);
+     background-image: (to bottom,#582c28, #8c3d35);
     font-size: 2.5rem;
     padding: .5rem 1.25rem;
     letter-spacing: 2px;
@@ -86,9 +88,7 @@ main{
     border-radius: 10px;
     outline: none;
 }
-
-
-
+/*Hamburguer*/
 
 
 /* 
@@ -98,12 +98,12 @@ such that no text wraps
 */
 @media screen and (min-width: 60rem){
   
-  .navbar{
-    flex-direction: row;
-    justify-content: space-between;
-  } 
-  .navbar ul{
-    display: flex;
-    justify-content: space-between;
+    .navbar{
+      flex-direction: row;
+      justify-content: space-between;
+    } 
+    .navbar ul{
+      display:flex;
+      justify-content: space-between;
+    }
   }
-}
