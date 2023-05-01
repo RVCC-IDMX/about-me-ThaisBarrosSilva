@@ -1,270 +1,365 @@
-body {
-font-family:Gloock;
-background-color:#f5f5f5;
-color:dark;
+/*body*/
 
-}
-p{
-    font-size: 20px;
-}
-
-h1,h2,h3,h4,h5,h6 {
-font-family: Mynerve;
-text-align: center;
-
-
-}
-h1{
-    font-size: 30pt;
-
-}
-h2 {
-    margin: 1em;
-    color:#a52a2a;
+    body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:hwb(33 78% 2% / 0.82);
+    color:#000000;
     
-}
-
-header{
-    text-align: center;
-    background-color: lightgray;
-    color:black;
-}
-
-
-#hero{
-    background-color:#afabab;
-    color:brown;
-    border: 4px  solid;
-    text-align: center;
-    padding: 4rem 2rem;
-    font-size: 1rem;
-    
-}
-footer {
-    background-color:lightgray;
-    color:brown;
-    border: 4px  solid;
-    text-align: center;
-    padding: 4rem 2rem;
-    font-size: 1rem;
-}
-
-
-/* Hero Section */
-#hero img{
-    padding:none;
-    width: 320px;
-    border-radius: 40px;
-    border-style:double;
-    border-width: 5px;
-    border-color: white;
-
-   
-
-}
-/* Bio Section */
-#bio{
-    text-align:center;
-    
-    
-}
-
-/* Hobbies Section */
-
-    section#hobbies {
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-    }
-    
-
-        #hobbies ul li:nth-child(odd){
-            color:dark;
     }
 
-    em{
-        color:brown;
-        font-size: 20px;
-        font-family:Mynerve;
-        text-align: center;
-        margin-left: none;
-       
-        
-    }
-
-/* Galeria */
- #gallery{
-    border: 2px solid dark;
-    margin-bottom: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  
-   
-    
- }
- #gallery img{
-max-width: 80%;
-border-radius: 15px;
-border-radius: 40px;
-    border-style:outset;
-    border-width: 2px;
-    border-color:brown;
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-
-    
-     
-
- }
-#gallery figure{
-text-align: center;
- }
-
-    /*Literature*/
-    #lit{
-        font-family:Arial, Helvetica, sans-serif;
-        border: 4px solid gray;
-        margin-bottom: 5rem;
-        
-    }
-    #lit div{
-        padding:3rem;
-        max-width: 40rem;
-        margin: 0 auto;
-       
-    }
-    #lit div p{
-        padding:0.2rem 0;
-        clear: both;
-    }
-    /* Dropcaps*/
-
-    #lit div p:first-child:first-letter{
-        color:gray;
-        background-image: linear-gradient(#FFF,#FFB2DC);
-        float:left;
-        font-size:2em;
-        padding:.25em;
-        line-height:.65em;
-        border: 1px solid black;
-        text-shadow: 2px 2px 3px rgba(0,0,0,.5);
-        box-shadow: 3px 3px 3px rgba(0,0,0,.5);
-        border-top-left-radius:.3em;
-        border-bottom-right-radius: .2em;
-
-
-    }
-    /*Find me*/
-    #findme{
-        text-align: center;
-    }
-     /* Contact Form */
-     
-     #formElements{
-        display: grid;
-        row-gap: .5em;
-        
-     }
-
-     #contact{
-        padding: 1rem;
-        max-width: 600px;
-        margin: 2rem auto;
-        
-    
-     }
-
-     fieldset{
-        border: 2px solid gray;
-        margin-top:1em;
-        margin-bottom:1em;
-        border-radius: 2rem;
-     }
-     
-     legend{
-
-        background-color:chocolate;
-        color:black bold;
-        padding: .5em;
-
-     }
-     #contact input, #contact textarea, #contact select, #contact button{
-        padding: .5em;
-        font-size: 1rem;
-        
-
-     }
-
-     #contact ul{
-        list-style: none;
-        padding: 0px;
-        
-     }
-
-     #contact li{
-        margin: 1rem;
-     }
-
-     #contact button{
-        background-color: gray;
-        color:white;
-        border: 1px solid black;
-        max-width: 400px;
-        width: 50%;
-        justify-self: center;
-
-     }
-
-    /* tablet size*/
-    @media screen and (min-width: 60em) {
-     figure{
-        display:flex;
-        justify-content: center;
-        grid-template-columns: 2fr 1fr;
-     }  
-     figcaption{
-     display:grid;
-     align-items:center;
-     font-size: 1rem;
-     margin-left: 1rem;
-    }
-    figure img{
-        width:100%;
-    }
-    #lit div{
-        max-width:100%;
-        columns:40rem;
-    }
-    }
-    /* large screen size*/
-    @media screen and (min-width:100em){
-        #gallery{
-            display:grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-        hr{
-            display:none;
-            
-        }
-        #gallery h2{
-            grid-column: 1/-1;
-            
-        }
-        figure{
-            display: block;
+    /*Paragraph*/
+    p{
+        font-size: 18px;
+        text-align:relative;
+        line-height: 2em;
+        text-indent: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
           
-        }
     }
-    #video{
+
+    /*Frase- treassure*/
+    .phrase{
+        font-size: 1.7rem;
+        text-align:center;
+        color:#c9491bf6;
+        font-family: Mynerve;
+    
+    }
+    
+    h1,h2,h3,h4,h5,h6 {
+    font-family: Mynerve;
+    text-align: center;
+    
+    
+    }
+    h1{
+        font-size: 30pt;
+    
+    }
+    h2 {
+        margin: 1em;
+        color:#a9261a;
+        font-size: 30px;
+        
+    }
+    
+    header{
         text-align: center;
-        border: 3px solid gray;
-        margin-bottom: 5rem;
-        font-size: 20px;
+        background-color: brown;
+        color:black;
+    }
+    
+    /*background from my picture*/
+    #hero{
+        background-color:#e9ceac;
+        color: #8e2904;
+        border: #a13c17 4px  solid;
+        text-align: center;
+        padding: 4rem 2rem;
+        border-radius: 20px 0px;
+        
+
         
     }
 
+    /* Hero Section */
+    #hero img{
+        padding:none;
+        width: 320px;
+        border-radius: 20px 20px 20px 20px;
+        border-style:solid;
+        border-width: 3px;
+        border-color: white;
+    }
+
+    /*My picture*/
+    #me{
+       font-size: 20px;
+       font-style: bold;
+    }
+
+    /*fooster*/
+    footer {
+        background-image: linear-gradient(to bottom, #8c3d35,#582c28);
+        color:#fae3c7d1;
+        border: 4px  solid;
+        text-align: center;
+        padding: 4rem 2rem;
+        font-size: 1rem;
+        box-shadow: 2px 2px 4px 1px #0000008e;   
+    }
+
+    footer a{
+       color: #fae3c7d1;
+    }
+
+    a{
+        color:black;
+        font-size:22px;
+
+    }
+   
+    /* Bio Section */
+    #bio{
+        text-align:center;
+        
+        
+    }
+    
+    /* Hobbies Section */
+    
+    section#hobbies {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+                
+        }
+        
+    
+    #hobbies ul li:nth-child(odd){
+        color:dark;
+     }
+    
+       
+    
+    /* Galeria of Happiness*/
+     .happiness1{
+        border: 2px solid dark;
+        margin-bottom: 5rem;
+        display: flex;
+        justify-content:baseline;
+        align-items:center;
+        
+     
+     }
+     
+     .happiness1 img{
+        max-width: 30%;
+        border-radius: 40px;
+        border-style:double;
+        border-width: 2px;
+        border-color:#8e2904;
+        position: relative;
+        overflow: hidden;
+        
+     }
+     
+        .happiness1 figure{
+            text-align:center;
+            
+     }
+     /*animation*/
+    .happiness1{
+        transition-duration: 1000ms;
+        transition-timing-function: ease-in-out;
+       
+        
+    }
+    .happiness1:hover{
+        background :transparent;
+        transform: rotate(35deg);
+    }
+
+    #happiness1{
+        box-sizing: border-box;
+        transform: translate(100px, -10px);
+    }
+
+    figcaption{
+        font-size: 20px;
+        padding: 9px;
+        font-family: Arial, Helvetica, sans-serif
+        
+
+    }
+    /*end animation*/
+
+     
+    
+        /*Literature*/
+        #lit{
+            font-family:Arial, Helvetica, sans-serif;
+            border: 4px solid #a13c17;
+            margin-bottom: 5rem;
+            
+        }
+        #lit div{
+            padding:3rem;
+            max-width: 40rem;
+            margin: 0 auto;
+           
+        }
+        #lit div p{
+            padding:0.2rem 0;
+            clear: both;
+    
+        }
+
+        /* Dropcaps*/
+    
+        #lit div p:first-child:first-letter{
+            color:gray;
+            background-image: linear-gradient(#FFF,#FFB2DC);
+            float:left;
+            font-size:2em;
+            padding:.25em;
+            line-height:.65em;
+            border: 1px solid black;
+            text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+            box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+            border-top-left-radius:.3em;
+            border-bottom-right-radius: .2em;
+        }
+
+       
+        /*Find me*/
+        #findme{
+            text-align: center;
+            font-size:30px;
+            text-decoration: none;
+        }
+         /* Contact Form */
+         
+         #formElements{
+            display: grid;
+            row-gap: 0.5rem;
+            
+         }
+    
+         #contact{
+            padding: 1rem;
+            max-width: 600px;
+            margin: 2rem auto;
+            
+         }
+    
+         fieldset{
+            border: 1px solid #a13c17;
+            margin-top:1em;
+            margin-bottom:1em;
+            border-radius: 2rem;
+         }
+         
+         legend{
+    
+            background-color:#d97b59;
+            color:black bold;
+            padding:  0.5rem;
+    
+         }
+         #contact input, #contact textarea, #contact select, #contact button{
+            padding: .5em;
+            font-size: 1rem;
+            
+    
+         }
+    
+         #contact ul{
+            list-style: none;
+            padding: 0px;
+            
+         }
+    
+         #contact li{
+            margin: 1rem;
+         }
+    
+         #contact button{
+            background-color: #8c3d35;
+            color:white;
+            border: 2px solid #592c28;
+            max-width: 400px;
+            width: 50%;
+            justify-self: center;
+    
+         }
+    
+        /* tablet size*/
+        @media screen and (min-width: 60em) {
+         figure{
+            display:flex;
+            justify-content: center;
+            grid-template-columns: 2fr 1fr;
+         }  
+         figcaption{
+         display:grid;
+         align-items:center;
+         font-size: 1rem;
+         margin-left: 1rem;
+         font-family: Arial, Helvetica, sans-serif;
+        
+         }
+
+         figure img{
+            width:100%;
+         }
+         #lit div{
+            max-width:100%;
+            columns:40rem;
+        }
+        }
+        /* large screen size*/
+        @media screen and (min-width:100em){
+            #gallery{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            hr{
+                display:none;
+                
+            }
+            #gallery h2{
+                grid-column: 1/-1;
+                
+            }
+            figure{
+                display: block;
+              
+            }
+        }
+        #video{
+            text-align: center;
+            border: 3px solid #a13c17;
+            margin-bottom: 5rem;
+            font-size: 20px;
+            
+        }
+        /*Blog*/
+        #blog{
+            background-color: #d48b70;
+            padding-top: 10px;
+            
+            
+        }
+        /*Picture transforme*/
+        .cod1{
+            width: 280px;
+            height: 250px;
+            box-sizing: border-box;
+            transform: translate(100px, -10px);
+            
+        }
+        .trans1{
+            width: 280px;
+            height: 250px;
+            box-sizing: border-box;
+            transform: translate(100px, -10px);
+        }
+
+        .cod2{
+            width: 310px;
+            height:130px;
+            box-sizing: border-box;
+            transform: translate(80px, -10px);
+
+        }
+        .trans2{
+            width: 280px;
+            height: 250px;
+            box-sizing: border-box;
+            transform: translate(100px, -10px);
+
+        }
+        

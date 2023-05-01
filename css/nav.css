@@ -24,13 +24,14 @@ main{
 /* navbar */
 
 .navbar{
-    background-color: lightgray;
-    color: brown;
+    background-image: linear-gradient(to bottom,#582c28, #8c3d35);
+    color: #f1ddc3f4;
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     margin-bottom: 1rem;
     padding: 1rem;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.556);
   
 }
 
@@ -48,6 +49,7 @@ main{
 .logo img{
     height: 6vw;
     width: 6vw;
+    margin-left: 20px;
 }
 .logo h1{
     font-size: 1.2em;
@@ -69,8 +71,8 @@ main{
  and then on hover
 */
 .navbar-links a {
-    color:brown;
-    background-color: lightgray;
+    color:#f1ddc3f4;
+    background-image: linear-gradient(to bottom,#582c28, #8c3d35);
     font-size: 2.5rem;
     padding: .5rem 1.25rem;
     letter-spacing: 2px;
