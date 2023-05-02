@@ -8,7 +8,7 @@
     }
 
     /*Paragraph*/
-    p{
+        p{
         font-size: 18px;
         text-align:relative;
         line-height: 2em;
@@ -18,8 +18,8 @@
           
     }
 
-    /*Frase- treassure*/
-    .phrase{
+    /*Frase- treasure*/
+        .phrase{
         font-size: 1.7rem;
         text-align:center;
         color:#c9491bf6;
@@ -27,32 +27,38 @@
     
     }
     
-    h1,h2,h3,h4,h5,h6 {
-    font-family: Mynerve;
-    text-align: center;
+        h1,h2,h3,h4,h5,h6 {
+        font-family: Mynerve;
+        text-align: center;
     
     
     }
-    h1{
+        h1{
         font-size: 30pt;
     
     }
-    h2 {
+        h2 {
         margin: 1em;
         color:#a9261a;
         font-size: 30px;
         
     }
     
-    header{
-        text-align: center;
-        background-color: brown;
-        color:black;
+    /*header configuration*/
+        header{
+        background-image: linear-gradient(to bottom,#582c28, #8c3d35);
+        color: #f1ddc3f4;
+        display: flex;
+        flex-direction:column;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.556);
+      
     }
     
-    
     /*background from my picture*/
-    #hero{
+        #hero{
         background-color:#e9ceac;
         color: #8e2904;
         border: #a13c17 4px  solid;
@@ -65,24 +71,40 @@
     
 
     /* My picture */
-    #hero img{
+     #hero img{
         padding:none;
         width: 320px;
-        border-radius: 20px 20px 20px 20px;
         border-style:solid;
         border-width: 3px;
         border-color: white;
+    
     }
 
-    /*My picture*/
-    #me{
-       font-size: 20px;
-       font-style: bold;
+    .mypic{
+        transition-property: border-radius;
+        transition-duration: 1.5s;
+        transition-timing-function: ease-in;
     }
+
+    .mypic{
+        border-radius: 20%;
+    }
+   
+
+
+    /*My picture text*/
+        #me{
+        font-size: 20px;
+        font-style: bold;
+       
+     }
+     
+   
+
 
     
     /* Bio Section */
-    #bio{
+        #bio{
         text-align:center;
         
         
@@ -90,7 +112,7 @@
     
     /* Hobbies Section */
     
-    section#bio {
+        section#bio {
     
         display: flex;
         flex-direction: column;
@@ -99,7 +121,7 @@
         }
         
     
-    #bio ul li:nth-child(odd){
+        #bio ul li:nth-child(odd){
         color:dark;
      }
     
@@ -107,7 +129,7 @@
     
     /* Galeria of Happiness*/
     
-     .happiness1{
+        .happiness1{
         border: 2px solid dark;
         margin-bottom: 5rem;
         display: flex;
@@ -117,7 +139,7 @@
      
      }
      
-     .happiness1 img{
+        .happiness1 img{
         max-width: 30%;
         border-radius: 40px;
         border-style:groove;
@@ -128,36 +150,39 @@
         
      }
      
-     .happiness1 figure{
+        .happiness1 figure{
         text-align:center;
         
- }
+    }
      /*animation*/
-    .happiness1{
+        .happiness1{
         transition-duration: 1000ms;
         transition-timing-function: ease-in-out;
        
         
     }
-    .happiness1:hover{
+        .happiness1:hover{
         background :transparent;
         transform: rotate(20deg);
     }
 
-    #happiness1{
+        #happiness1{
         box-sizing: border-box;
         transform: translate(100px, -10px);
     }
+        /*end animation*/
 
-    figcaption{
+
+        /*text of gallery*/
+        figcaption{
         font-size: 20px;
         padding: 9px;
         font-family: Arial, Helvetica, sans-serif
     }
-    /*end animation*/
+   
 
     /*video*/
-    #video{
+        #video{
         text-align: center;
         border: 3px solid #a13c17;
         margin-bottom: 5rem;
@@ -165,27 +190,23 @@
     }
 
      /*Blog*/
-     #blog{
-        background-color: #d48b70;
-        padding-top: 10px;
-        
-        
-    }
-
-    #blog{
+     
+        #blog{
         padding:3rem;
         max-width: 40rem;
         margin: 0 auto;
         text-align: justify;
+        background-color: #d48b70;
+        padding-top: 10px;
        
     }
-    #blog div p{
+        #blog div p{
         padding:0.2rem 0;
         clear: both;
 
-    } 
-    /* First letter*/
-    #blog div p:first-child:first-letter{
+     } 
+        /* First letter*/
+        #blog div p:first-child:first-letter{
         color:#592c28;
         background-image: linear-gradient(#F2d7b6,#a68c6d);
         float:left;
@@ -218,6 +239,7 @@
             padding: 1rem;
             max-width: 600px;
             margin: 2rem auto;
+
             
          }
     
@@ -227,7 +249,7 @@
             margin-bottom:1em;
             border-radius: 2rem;
          }
-         
+          /* text inside of the contact box */
          legend{
     
             background-color:#d97b59;
@@ -241,7 +263,7 @@
             
     
          }
-    
+        /* Contact unordered list*/
          #contact ul{
             list-style: none;
             padding: 0px;
@@ -251,7 +273,7 @@
          #contact li{
             margin: 1rem;
          }
-    
+         /* Contact buttom */
          #contact button{
             background-color: #8c3d35;
             color:white;
@@ -261,31 +283,27 @@
             justify-self: center;
     
          }
-    
+
         /* tablet size*/
         @media screen and (min-width: 60em) {
-         figure{
-            display:flex;
-            justify-content: center;
-            grid-template-columns: 2fr 1fr;
-         }  
+            figure{
+               display:flex;
+               justify-content: center;
+               grid-template-columns: 2fr 1fr;
+            }  
          figcaption{
-         display:grid;
-         align-items:center;
-         font-size: 1rem;
-         margin-left: 1rem;
-         font-family: Arial, Helvetica, sans-serif;
-        
-         }
-         figure img{
-            width:100%;
-         }
-         
+            display:grid;
+            align-items:center;
+            font-size: 1rem;
+            margin-left: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            
         }
 
         /* large screen size*/
         @media screen and (min-width:100em){
-            #gallery{
+            #happiness{
                 display:grid;
                 grid-template-columns: 1fr 1fr 1fr;
             }
@@ -293,7 +311,7 @@
                 display:none;
                 
             }
-            #galleryh2{
+            #happinessh2{
                 grid-column: 1/-1;
                 
             }
@@ -304,7 +322,7 @@
         }
         
        
-        /*Picture transforme*/
+        /*Picture transforme- I used it to organize the photos inside the CSS animation content*/
         .cod1{
             width: 280px;
             height: 250px;
@@ -336,23 +354,50 @@
             transform: translate(15px,0px);
 
         }
+        /*end of trasforme*/
+
+/*box*/
+.box{
+
+    align-items: center;
+    background-color:  #9b6660;
+    height: 300px;
+    width: 300px;
+
+    
+    transition-property:background-color, border-radius;
+    transition-duration: 2s 1.5s;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26);
+    transform: rotate(15deg);
+
+}
+.box:hover{
+    background-color: #ec5840;
+    border-radius: 50%;
+}
+
+
+
+
+
+
           /*fooster*/
-    footer {
-        background-image: linear-gradient(to bottom, #8c3d35,#582c28);
-        color:#fae3c7d1;
-        border: 4px  solid;
-        text-align: center;
-        padding: 4rem 2rem;
-        font-size: 1rem;
-        box-shadow: 2px 2px 4px 1px #0000008e;   
-    }
+        footer {
+            background-image: linear-gradient(to bottom, #8c3d35,#582c28);
+            color:#fae3c7d1;
+            border: 4px  solid;
+            text-align: center;
+            padding: 4rem 2rem;
+            font-size: 1rem;
+            box-shadow: 2px 2px 4px 1px #0000008e;   
+        }
 
-    footer a{
-       color: #fae3c7d1;
-    }
+        footer a{
+        color: #fae3c7d1;
+        }
 
-    a{
-        color:black;
-        font-size:22px;
+        a{
+            color:black;
+            font-size:22px;
 
-    }
+        }

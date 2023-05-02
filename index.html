@@ -1,43 +1,68 @@
 <!DOCTYPE html>
+<!-- Used to know the language that we are using-->
  <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About me</title>
+        <!--<title>About me</title>-->
         <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Mynerve&display=swap" rel="stylesheet">
+        
+        <!--link to style and nav file-->
         <link href="css/style.css" rel="stylesheet">
         <link href="css/nav.css" rel="stylesheet">
-        <link rel="icon" type="image/favicon" href="img/favicon.ico">
-    
-    </head>
-    <body>
-        <header>   
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="img/logo-favicon.png" alt="logo">
-                   <h1>Who Am I?</h1>
-                   </div>
-                    <div class="navbar-links">
+        
+        <!--favicon picture - logo-->
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/favicon" href="img/Group 5.svg">
+       </head>
+        <body>   
+        <header>
+        
+        
+    <!--I used a external link to have the picture of hamburger-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+            
+    <!--start the top of the page-->
+        <div id="topo">
+            <title>About me</title> 
+        <div class="logo">
+            <img src="img/logo-favicon.png" alt="logo">
+        <h1>Who Am I?</h1>
+        </div>
+
+                    <!--I used JavaScript to create the hamburguer-->
+                    <span id="burguer"class="material-icons" onclick="clickMenu()">menu</span>
+
+                    <!--Menu of hamburger-->
+                    <menu id="itens">
                         <ul>
                             <li><a href="#bio">Bio</a></li>
                             <li><a href="#happiness">Gallery</a></li>
+                            <li><a href="#video">Video</a></li>
                             <li><a href="#blog">Blog</a></li>
+                            <li><a href="#findme">Find Me</a></li>
                             <li><a href="#contact">Contact Me</a></li>
+                            
                         </ul>
-                    </div>
-            </nav>        
+                        </menu>
+                </div>      
        </header>
+
+       <!--Use it for get external font-family-->
         <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Mynerve&display=swap" rel="stylesheet">
+
+        <!--start the page adding my picture and a small text-->
             <main>
             <section id="hero">
-            <img src="img/centralp-eu.jpeg" alt="foto-principal">
+            <img class="mypic"src="img/centralp-eu.jpeg" alt="foto-principal">
             <div>
             <p id="me"> A Brazilian women exploring the world and becoming a Web development after 30.</p>
             </div>
             </section>
 
-
+        <!-- start of biography-->
         <section id="bio">
         <h2>Biography</h2>
         <div>
@@ -52,69 +77,108 @@
         
      
         </div>
+        <!--I added a external music using the page of YouTube-->
         <p>I love to listen to music, and lately I have fallen in love with Jazz</p>
         <audio src="music/Jane Street - TrackTribe.mp3" controls autoplay></audio>
 
-    </section>
-   
-<br>
-     <p class="phrase">The world is a treasure that I received in my life!</p>
+        </section>
+        <br>
+
+        <!--I added an impact phrase-->
+        <p class="phrase">The world is a treasure that I received in my life!</p>
         <br>
         <br>
         <br>
     
-    <div> 
-    <h2>Happiness Gallery</h2>    
-    <section id="happiness">
+        <div>
+            <!--start of Gallery--> 
+        <h2>Happiness Gallery</h2>    
+        <section id="happiness">
      
-     <br>
+        <br>
      
-    <figure class="happiness1">
-    <img class="foto1"src="img/happiness 1full.jpg" alt="happy1">
-    <figcaption>There is nothing better than be happy</figcaption></figure>
-    <br>
-    <br>
+        <figure class="happiness1">
+        <img class="foto1"src="img/happiness 1full.jpg" alt="happy1">
+        <figcaption>There is nothing better than be happy</figcaption></figure>
+        <br>
+        <br>
 
-    <figure class="happiness1">
-    <img src="img/happiness2full.jpg" alt="happiness2">
-    <figcaption>It gives freedom</figcaption>
-    </figure><br>
+        <figure class="happiness1">
+        <img src="img/happiness2full.jpg" alt="happiness2">
+        <figcaption>It gives freedom</figcaption>
+        </figure><br>
 
-    <br>
-    <figure class="happiness1">
-    <img src="img/happiness3full.jpg" alt="hapiness3"><br>
-    <figcaption>Part of love is happiness</figcaption>
-    </figure>
+        <br>
+        <figure class="happiness1">
+        <img src="img/happiness3full.jpg" alt="hapiness3"><br>
+        <figcaption>Part of love is happiness</figcaption>
+        </figure>
 
-</section>
-  </div>  
-
-    <section id="video">
-    <h2> A Short Video </h2>
-    <iframe width="324" height="576" src="https://www.youtube.com/embed/e6gookE1HT0" title="Video about me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>To know about me it is necessary to know where I came from &#127463;&#127479; </p></section>
+        </section>
+        </div>  
+   
+        <!--I added a video about me and where I am from-->
+        <section id="video">
+        <h2> A Short Video </h2>
+        <!--I embed a external video from my webpage from Youtube-->
+        <iframe width="324" height="576" src="https://www.youtube.com/embed/e6gookE1HT0" title="Video about me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>To know about me it is necessary to know where I came from &#127463;&#127479; </p></section>
                     
     
-    <!--Blog-->
-    <section id="blog">
-    <h2> CSS animation</h2>
-    <div>
-     <p>A web page is the web developer's voice in the crowd, for it to be understood and heard the web developer must communicate in an appropriate way to the reader. Delivering content to the customer goes beyond putting information on a page, it must be well located and aligned for good organization and visualization and with attributes to draw the listener's attention.</p>
-    <p> Everything starts by inserting an image in the html; once decided, it is at that moment that the functions of Cascading Style Sheets or better known as CSS are present in this journey.
-     A good image can be configured in several ways and use Animation to make it more attractive to the customer.</p>
-     <p>My first step was to add the picture on HTML</p>
-     <picture> 
-        <img class="cod1"src="img/cod1.png" alt="cod1">
-     </picture>
-     <p>Then I gave the animation for it. I used : transition-duration: 1000ms and transition-timing-function: ease-in-out; </p>
+        <!-- start of Blog-->
+        <section id="blog">
+        <h2> CSS animation</h2>
+        <div>
+        <p>Animation plays a critical role in improving the performance of a UX as it helps provide much better visual feedback making interactions much more useful and efficient. Its use must be wise as we can create a page that causes distraction rather than interaction. The purpose of the animations is to help and improve the page.<br>
+        The animation has the purpose of providing:<br>
+        -Information<br>
+        -Hierarchy<br>
+        -Focus<br> </p>
+        <p>Among the various ways of animation, CSS is one of the most important forms for the developer.<br>
+        Their formats can be classified as:<br>
+        - Functional: Optimizes the experience, guides attention, feedback+preparation <br>
+        Materia: Consistent UI models, spatial relationships between screens and elements
+        <br>Enchanting: humanity and fun, something unique and memorable, entertainment + relationship.</p>
+                
+         <p>Animation becomes present in any environment we go to, from scrolling a page to choosing and creating a product by yourself, selecting all the attributes in an App. Its use makes the website or application a really pleasant and memorable experience when well done, because when well executed they bring life and personality to the project, more than that it brings soul to your page.
+        </p>
+        <p>The first Animation that we are going to talk about it is <strong>transform:translateX(); </strong> this setting allows the image to move within the horizontal axis when given the value inside the parentheses. We have <strong>translateY</strong> that allows moving the image on the y axis (vertical).
+        In addition we have <strong> transform:translate();</strong> where the value x and y can be assigned within the same reference, the first declared value belonging to X and the second declared value belonging to Y.<br><br><br><code>
+        <strong> transform:translateX(25deg);</strong><br>
+        <strong> transform:translateX(45deg);</strong><br>
+        <strong>transform:translate(2px,-10px);</strong></code><br><br>
+        </p>
+        <p>In addition we have<strong>transform: scaleX();</strong> that increases the size of the image on the sides (fattening it) and we have <strong>transform:scaleY();</strong>that changes the height of the image.<br><br><br><code>
+        <strong> transform:scaleX(-25deg)</strong><br>
+        <strong> transform:translateX(67deg);</strong></code><br><br>
+        </p>
+        <p>In the scope of rotation, we can use <strong>transform: rotate()</strong>the value inserted inside the brackets can be in degrees , this property was used inside the gallery of happiness where it assigns this resource so that the images give a smooth rotation without losing elegance. Also within the rotation attribute, we can declare the value per turn i.e. 0.5turn is equivalent to 180 degrees.<br>
+        When talking about skew, we can use <strong>transform:skewX().</strong>
+        <br><br><br><code>
+        <strong>transform: rotate(0.5turn);</strong>
+        <br>
+        <strong>transform:skewX(-30deg);</strong></code>
+        <br><br>
+         </p>
+         <p>The interesting thing with animation is that we can combine them and thus it is possible to arrive at more satisfactory results and achieve more powerful results.</p>
 
-     <picture>
-     <img class="trans1" src="img/trans1.png" alt="trans1" width="350px" height="310px">
-    </picture>
-    <p>After this process I added transparence because my main idea was not change any color in this animation, also I added the dimension of rotation using: <br>
+        <p> In my Blog everything starts by inserting an image in the <abbr title="HyperText Markup Language">HTML</abbr>; once decided, it is at that moment that the functions <abbr title="Cascading Style Sheets">CSS </abbr>are present in this journey.
+        A good image can be configured in several ways and use Animation to make it more attractive to the customer.</p>
+        <p>My first step was to add the picture on HTML</p>
+
+        <!--I added pictures that I can show the animation -->
+        <picture> 
+        <img class="cod1"src="img/cod1.png" alt="cod1">
+        </picture>
+        <p>Then I gave the animation for it. I used : transition-duration: 1000ms and transition-timing-function: ease-in-out; </p>
+
+        <picture>
+        <img class="trans1" src="img/trans1.png" alt="trans1" width="350px" height="310px">
+        </picture>
+        <p>After this process I added transparence because my main idea was not change any color in this animation, also I added the dimension of rotation using: <br>
         background :transparent;<br>
         transform: rotate(35deg);
-    </p>
-    <picture>
+        </p>
+        <picture>
         <img class="cod2" src="img/cod2-.png" alt="trans1" >
        </picture>
        <p>After adding these four possible characteristics for CSS transporations the image was rotated by 35 deg. with a duration of 100ms and with the ease-in-out function, that is basically the transition starts quickly and gradually slows down until the end</p>
@@ -123,86 +187,110 @@
         <img class="trans2" src="img/trans2.png" alt="trans2" width="450px" height="310px">
        </picture>
        <p>I created a website with the proposal to transmit elegance, minimalism and organization. I hope you like it!</p>
-    </div>
-    </section>
+       <br>
+       <br>
 
+       <div class="box">
+        <br>
+        <br>
+        <br>
+        <br>
+       <H1>Animation</H1>
+       <br>
+        </div>
+
+       
     
-    <section id="findme">
-    <h2>Where you can find me</h1>
-    <a href="https://www.linkedin.com/in/thais-barros-4215b1180/" target="_blank" class="redes" rel="external"><img src="img/LinkedIn_logo_initials.png" width="50px" height="50px" ></a>
-    <br>
-    <br>
-    <a href="https://github.com/ThaisBarrosSilva" target="_blank" class="redes" rel="external"><img src="img/github-mark.png" width="50px" height="50px"></a>
-    <br>
-    <br>
-    <a href="https://www.instagram.com/thais_barrossilva/" target="_blank" class="redes" rel="external"><img src="img/logo-instagram.jpg" width="50px" height="50px" ></a>
-    
+        </section>
+        <!--end of animation-->
 
- <section id="contact">
+        <!--I added a part with my webpages(Linkedln, Github and Instagram, I also added target_blank for the link open in other page)-->
+        <section id="findme">
+        <h2>Where you can find me</h1>
+        <a href="https://www.linkedin.com/in/thais-barros-4215b1180/" target="_blank" class="redes"     rel="external"><img src="img/LinkedIn_logo_initials.png" width="50px" height="50px" ></a>
+        <br>
+        <br>
+        <a href="https://github.com/ThaisBarrosSilva" target="_blank" class="redes" rel="external"><img src="img/github-mark.png" width="50px" height="50px"></a>
+        <br>
+        <br>
+        <a href="https://www.instagram.com/thais_barrossilva/" target="_blank" class="redes" rel="external"><img src="img/logo-instagram.jpg" width="50px" height="50px" ></a>
+        <!--end of find me-->
 
-    <h2> Contact Us: </h2>
+
+        <!--Start the contact part-->
+        <section id="contact">
+        <h2> Contact Us: </h2>
                         
-    <form id="contactForm" name="contactForm"  method="post" data-netlify="true">
+        <form id="contactForm" name="contactForm"  method="post" data-netlify="true">
 
-    <fieldset>
-     <legend>Contact Form</legend>
-    <div id="formElements">
-    <!--Name-->
-    <label for="name">Name (required)</label>
-     <input type="text" id="name" name="name" required>
+        <fieldset>
+        <legend>Contact Form</legend>
+        <div id="formElements">
+        <!--Name-->
+        <label for="name">Name (required)</label>
+        <input type="text" id="name" name="name" required>
                             
-     <!--Email-->
-    <label for="email"> Email(required)</label>
-    <input type="email" id="email" name="email" required>
+        <!--Email-->
+        <label for="email"> Email(required)</label>
+        <input type="email" id="email" name="email" required>
                             
-     <!--Phone-->
- <label for="phone"> Phone(optional)</label>
- <input type="phone" id="phone" name="phone">
+        <!--Phone-->
+        <label for="phone"> Phone(optional)</label>
+        <input type="phone" id="phone" name="phone">
 
-    <!--Phone Type-->
-    <label for="phonetype">Phone Type (optional)</label>
-    <select id="phonetype" name="phonetype">
-    <option value="Select">Select phone</option>
-    <option value="Mobile">Mobile</option>
-    <option value="Work">Work</option>
-    <option value="Home">Home</option>
-    </select>
+        <!--Phone Type-->
+        <label for="phonetype">Phone Type (optional)</label>
+        <select id="phonetype" name="phonetype">
+        <option value="Select">Select phone</option>
+        <option value="Mobile">Mobile</option>
+        <option value="Work">Work</option>
+        <option value="Home">Home</option>
+        </select>
 
-    <!--Comments-->
-    <label for="Message"> Message(optional)</label>
-    <textarea id="Message" name="Message" rows="8"></textarea>
+        <!--Comments-->
+        <label for="Message"> Message(optional)</label>
+        <textarea id="Message" name="Message" rows="8"></textarea>
 
-    <!--Reply-->
-    <fieldset>
- <legend>Would you like a reply?</legend>
-    <ul>
-     <li>
-    <input type="radio" id="message-yes" name="reply" value="yes a reply please">
+        <!--Reply using radio-->
+        <fieldset>
+        <legend>Would you like a reply?</legend>
+        <ul>
+        <li>
+        <input type="radio" id="message-yes" name="reply" value="yes a reply please">
 
-    <label for="message-yes"> Sure, it will be great.</label>
-    </li>
+        <label for="message-yes"> Sure, it will be great.</label>
+        </li>
                                         
-    <li>
-    <input type="radio" id="message-no" name="reply" value="No, reply please" checked>
-     <label for="message-no">No, Thank you.</label>
-    </li>
-    </ul>
-    </fieldset>
-    <!--Submit-->
-    <button type="submit"><strong>Send</strong></button>
+        <li>
+        <input type="radio" id="message-no" name="reply" value="No, reply please" checked>
+        <label for="message-no">No, Thank you.</label>
+        </li>
+        </ul>
+        </fieldset>
+        <!--Submit-->
+        <button type="submit"><strong>Send</strong></button>
                      
-    </div>
-    </fieldset>
+        </div>
+        </fieldset>
 
- </form>
+        </form>
 
-</section>
+        </section>
 
- </main>
+        </main>
+        <!--I used JavaScript to create the hamburger-->
+        <script>
+        function clickMenu(){
+                if(itens.style.display == 'block'){
+                    itens.style.display = 'none'
+                }else{
+                    itens.style.display='block'}
+                }
+        </script>
  
-<!--start of footer-->
-<footer class="footer"> 
-    <a href="https://github.com/ThaisBarrosSilva" target="_blank" class="redes" rel="external">Copyright © 2023 Thais Silva</a>
-</footer>
+        <!--start of footer-->
+        <footer class="footer"> 
+        <a href="https://github.com/ThaisBarrosSilva" target="_blank" class="redes" rel="external">Copyright © 2023 Thais Silva</a>
+        </footer>
  </body>
  </html>
